@@ -1,4 +1,4 @@
-import { Head, Link } from "blitz"
+import { Head } from "blitz"
 import vizJson from "./viz.json"
 import Vida from "vidajs"
 
@@ -11,7 +11,7 @@ const Home = () => (
     </Head>
 
     <main>
-      <div style={{ width: "1000px", height: "500px" }}>
+      <div style={{ width: "100%", height: "500px" }}>
         <Vida vizData={vizJson} />
       </div>
     </main>
